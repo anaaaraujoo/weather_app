@@ -1,0 +1,38 @@
+body {
+    font-family: Inter;
+}
+.search-bar{
+    display: block;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+}
+
+.weather-display{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.more-info{
+    margin-top: 50px;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weather-forecast{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.icons-forecast{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
