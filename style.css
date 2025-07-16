@@ -1,9 +1,10 @@
 body {
     font-family: Inter;
 }
-.search-bar{
+.search-bar {
     display: block;
     width: 310px;
+    height: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -11,12 +12,50 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 35px;
+    font-style: italic;
+    border-style: solid;
+    border-color: rgb(141, 134, 125);
+}
+.search-bar:focus {
+    border-color: rgb(141, 134, 125);
+    outline: none;
+    width: 350px;
+    height: 22px;
+
+    transition: width 0.25s,
+    height 0.25s;
 }
 
-.weather-display{
+.weather-display {
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.today-temperature {
+    font-size: 85px;
+    display: flex;
+    justify-content: center;
+    font-weight: 150;
+}
+
+.time-info {
+    display: flex;
+    justify-content: center;
+    color: rgb(63, 62, 62);
+}
+
+.day-info {
+    display: flex;
+    justify-content: center;
+    color: rgb(63, 62, 62);
+    margin-bottom: 50px;
+}
+
+.today-icon {
+    width: 180px;
+    display: block;
+    margin: 0 auto;
 }
 
 .more-info{
