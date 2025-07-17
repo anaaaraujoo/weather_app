@@ -97,32 +97,34 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 8px;
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .humidity-percentage {
     display: flex;
     justify-content: center;
     color:rgb(45, 45, 45);
-    font-size: larger;
+    font-size: x-large;
 }
 
 .wind {
     display: flex;
     justify-content: center;
     margin-bottom: 8px;
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .wind-speed {
     display: flex;
     justify-content: center;
     color:rgb(45, 45, 45);
-    font-size: larger;
+    font-size: x-large;
 }
 
 .weather-forecast {
-    padding-left: 25px;
+    padding-left: 50px;
     margin-top: 50px;
     display: grid;
 }
@@ -134,12 +136,12 @@ body {
 }
 
 .day-name {
-    font-size: larger;
+    font-size: 22px;
     font-weight: light;
 }
 
 .day-temperature {
-    font-size: medium;
+    font-size: 18px;
     font-weight: 300;
 }
 
