@@ -16,7 +16,7 @@ body {
     border-style: solid;
     border-color: rgb(141, 134, 125);
 }
-.search-bar:focus {
+.search-bar:hover {
     border-color: rgb(141, 134, 125);
     outline: none;
     width: 350px;
@@ -48,7 +48,7 @@ body {
 .day-info {
     display: flex;
     justify-content: center;
-    color: rgb(63, 62, 62);
+    color: rgb(63, 63, 63);
     margin-bottom: 50px;
 }
 
@@ -56,12 +56,55 @@ body {
     width: 180px;
     display: block;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
-.more-info{
-    margin-top: 50px;    
+.today-description {
+    display: flex;
+    justify-content: center;
+    color: rgb(45, 45, 45);
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.city {
+    display: flex;
+    justify-content: center; 
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.more-info {
+    margin-top: 12px;    
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.humidity {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+
+.humidity-percentage {
+    display: flex;
+    justify-content: center;
+    color:rgb(45, 45, 45);
+}
+
+.wind {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+
+.wind-speed {
+    display: flex;
+    justify-content: center;
+    color:rgb(45, 45, 45);
 }
 
 .weather-forecast{
@@ -70,8 +113,6 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.icons-forecast{
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: 1fr;
+.forecast-day {
+    align-items: center;
 }
