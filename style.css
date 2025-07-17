@@ -1,6 +1,7 @@
 body {
     font-family: Inter;
 }
+
 .search-bar {
     display: block;
     width: 310px;
@@ -26,10 +27,21 @@ body {
     height 0.25s;
 }
 
+.search-bar:focus{
+    outline: none;
+}
+
 .weather-display {
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.weather-today {
+    border: 1px solid black;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
 }
 
 .today-temperature {
@@ -92,6 +104,7 @@ body {
     display: flex;
     justify-content: center;
     color:rgb(45, 45, 45);
+    font-size: larger;
 }
 
 .wind {
@@ -105,14 +118,31 @@ body {
     display: flex;
     justify-content: center;
     color:rgb(45, 45, 45);
+    font-size: larger;
 }
 
-.weather-forecast{
+.weather-forecast {
+    padding-left: 25px;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
 .forecast-day {
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+}
+
+.day-name {
+    font-size: larger;
+    font-weight: light;
+}
+
+.day-temperature {
+    font-size: medium;
+    font-weight: 300;
+}
+
+.day-icon {
+    width: 80px;
 }
